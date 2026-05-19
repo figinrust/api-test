@@ -52,7 +52,7 @@ def test_get_qwery_parameters_basic(api_urls):
 
     assert data['args'] == {
         'foo': 'bar',
-        'test': '124'
+        'test': '123'
     }
     assert data['url'] == 'https://postman-echo.com/get?foo=bar&test=123'
     assert data["headers"]["host"] == 'postman-echo.com'
